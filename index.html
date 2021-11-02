@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Rafael Bamberg</title>
+    </head>
+
+    <!-- 
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⣀⠈⠉⠙⠿⣿⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⡄⠄⠉⠙⠓⢦⡀⠈⠻⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣿⣿⣿⣿⠛⠛⠉⠋⠄⣠⣤⣄⠄⠄⠂⠤⣄⠈⠳⣄⠄⢹⣿⣿⣿⣿⣿ ⣿⣿⣿⣿⣿⡟⠁⠄⣰⣶⣦⡀⠻⣿⣿⣷⣄⠄⠄⢸⡆⠄⣿⠄⠄⠈⠉⠻⣿⣿ ⣿⣿⣿⡿⠁⢠⣴⣶⣌⠹⣿⣿⣷⣍⠻⣿⣿⣶⣄⠄⠄⠄⠄⣰⣾⣶⡆⠄⣿⣿ ⣿⣿⣿⣇⠄⠈⠻⣿⣿⣧⡈⠻⣿⣿⣷⣌⠻⣿⣿⣷⡄⠄⠄⣿⣿⣿⡇⠄⣿⣿ ⣿⣿⣿⣿⠃⢀⣠⣀⠙⢿⣿⣷⣄⠻⣿⣿⣿⣾⣿⣿⣿⣷⠄⣿⣿⣿⡇⠄⣿⣿ ⣿⣿⣿⣿⠄⠸⢿⣿⣷⣌⠻⢿⣿⣦⣈⣿⣿⣿⣿⣿⢟⣡⣾⣿⣿⣿⡇⠄⣿⣿ ⣿⣿⠟⠋⠁⠄⠄⠙⢿⣿⣷⣄⢹⣿⣿⣿⣿⣿⣿⠁⣼⣿⣿⣿⣿⣿⡇⠄⣿⣿ ⣿⣿⠄⠠⡆⠄⢰⡀⠄⠙⢿⣿⣿⣿⣿⣿⣿⣿⣏⠸⣿⣿⣿⣿⣿⣿⡇⠄⣿⣿ ⣿⣿⠄⠄⢻⡀⠈⠳⣤⡄⠄⠙⢿⣿⣿⣿⣿⣿⣿⡄⢻⣿⣿⣿⣿⣿⠇⠄⣿⣿ ⣿⣿⣷⣄⠄⠑⢦⣄⣀⡀⠄⢀⠄⠙⠿⣿⣿⣿⣿⣿⣾⣿⣿⣿⣿⠏⠄⢠⣿⣿ ⣿⣿⣿⣿⣶⣄⠄⠈⠉⠁⠄⣸⣿⣄⠄⠈⠻⣿⣿⣿⣿⣿⣿⠿⠃⠄⣠⣿⣿⣿ ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣄⡀⠄⠄⠄⠄⢀⣠⣴⣿⣿⣿⣿⣿ 
+O tal do Bamberg
+    -->
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+                    Rafael Bamberg
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Sobre</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#trick" class="nav__link">Projetos</a>
+                        </li>
+
+
+                        <a href="https://github.com/RafaelBamberg" target="https://github.com/RafaelBamberg" class="button button--ghost">Meu github</a>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/img/nav-img.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slider 1 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/home1-img.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <span class="home__details-subtitle">Html, Css, Javascript, Jest, Typescript<br>
+                                            React(Redux, Lifecycles, Hooks, Context API)   </span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h1 class="home__title"> TECNOLOGIAS <br> FRONT-END </h1>
+                                    <p class="home__description"> <img src="assets/img/javascript.png" alt="" /> <img src="assets/img/4691287_jest_icon.png" alt="" /> <img src="assets/img/317755_badge_html_html5_achievement_award_icon.png" alt="" /> <img src="assets/img/4691292_react native_react_icon.png" alt="" /> <img src="assets/img/4691205_redux_icon.png" alt="" /> <img src="assets/img/317756_badge_css_css3_achievement_award_icon.png" />
+                                    </p>
+
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- HOME SLIDER 2 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/home2-img.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <span class="home__details-subtitle">SQL, MongoDB, Docker, Typescript, Node.js</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h1 class="home__title">TECNOLOGIAS BACK-END</h1>
+                                    <p class="home__description"> <img src="assets/img/315437_document_sql_file_icon.png" alt="" /><img src="assets/img/1012822_code_development_logo_mongodb_programming_icon.png" alt="" />  <img src="assets/img/1012818_code_development_logo_nodejs_icon.png" alt="" /> <img src="assets/img/317755_badge_html_html5_achievement_award_icon.png" alt="" /> <img src="assets/img/4373765_docker_logo_logos_icon.png" alt="" />
+                                    </p>
+
+                                    <div class="home__buttons">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Slider 3 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/home3-img.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <span class="home__details-subtitle">Python,Estrutura de dados, Algoritimos, Hasmaps, Pilhas</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h1 class="home__title">CIÊNCIA DA COMPUTAÇÃO</h1>
+                                    <p class="home__description"> <img src="assets/img/4375050_logo_python_icon.png" />
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            
+            <!--==================== Techs====================-->
+            <section class="section category">
+                <h2 class="section__title">Tecnologias Favoritas</h2>
+
+                <div class="category__container container grid">
+                    <div class="category__data">
+                        <img src="assets/img/category1-img.png" alt="" class="category__img">
+                        <h3 class="category__title">React</h3>
+                        <p class="category__description">Hooks | Redux | Context API | Lifecycles | Hooks</p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/category2-img.png" alt="" class="category__img">
+                        <h3 class="category__title">Node.js</h3>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/category3-img.png" alt="" class="category__img">
+                        <h3 class="category__title">SQL</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== Sobre mim ====================-->
+            <section class="section about" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Um pouco sobre mim</h2>
+                        <p class="about__description"> Meu nome é Rafael Bamberg, tenho 20 anos 
+                          e sou um estudante de programação web na Trybe, sou natural de Salvador-BA
+                          e sou apaixonado por codar.
+                        </p>
+                    </div>
+
+                    <img src="assets/img/about-img.png" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--==================== Projetos ====================-->
+            <section class="section base" id="base">
+                <h2 class="section__title">Projetos Front-end</h2>
+
+                <div class="base__container container grid">
+                    <div class="base__content">
+                        <img src="assets/img/wallet.png" alt="" class="base__img">
+                        <h3 class="base__title">Wallet</h3>
+                        <span class="base__subtitle">Carteira de despesas</span>
+                        <a href="https://github.com/RafaelBamberg/Wallet" target="https://github.com/RafaelBamberg/Wallet" class="button botao_projetos">⚡</a>
+                    </div>
+
+                    <div class="base__content">
+                        <img src="assets/img/online-store.png" alt="" class="base__img">
+                        <h3 class="base__title">Online Store</h3>
+                        <span class="base__subtitle">Loja Online</span>
+                        <a href="https://github.com/RafaelBamberg/Online-Store" target="https://github.com/RafaelBamberg/Online-Store" class="button botao_projetos">⚡</a>
+                    </div>
+
+                    <div class="base__content">
+                        <img src="assets/img/trivia-game.png" alt="" class="base__img">
+                        <h3 class="base__title">Trivia Game</h3>
+                        <span class="base__subtitle">Jogo de Perguntas e Respostas</span>
+                        <a href="https://github.com/RafaelBamberg/Trivia-Redux" target="https://github.com/RafaelBamberg/Trivia-Redux" class="button botao_projetos">⚡</a>
+                    </div>
+
+                    <div class="base__content">
+                        <img src="assets/img/star-wars.png" alt="" class="base__img">
+                        <h3 class="base__title">Starwars Planets</h3>
+                        <span class="base__subtitle">Filtro de planetas Starwars</span>
+                        <a href="https://github.com/RafaelBamberg/starwars-planets-search" target="https://github.com/RafaelBamberg/starwars-planets-search" class="button botao_projetos">⚡</a>
+                    </div>
+
+                    <div class="base__content">
+                        <img src="assets/img/food-app.png" alt="" class="base__img">
+                        <h3 class="base__title">Recipes App</h3>
+                        <span class="base__subtitle">App de receitas</span>
+                        <a href="https://github.com/RafaelBamberg/Recipes-App" target="https://github.com/RafaelBamberg/Recipes-App" class="button botao_projetos">⚡</a>
+                    </div>
+
+                    <div class="base__content">
+                        <img src="assets/img/shopping-cart.png" alt="" class="base__img">
+                        <h3 class="base__title">Shopping Cart</h3>
+                        <span class="base__subtitle">Carrinho de compras</span>
+
+                        <a href="https://github.com/RafaelBamberg/Cart" target="https://github.com/RafaelBamberg/Cart" class="button botao_projetos">⚡</a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- <section class="section trick" id="trick">
+                <h2 class="section__title">Projetos Back-end</h2>
+
+                <div class="trick__container container grid">
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat1-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Wallet</h3>
+                        <span class="trick__subtitle">Carteira de despesas</span>
+                        <a href="https://github.com/RafaelBamberg/Wallet" target="https://github.com/RafaelBamberg/Wallet" class="button botao_projetos">⚡</a>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat2-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Online Store</h3>
+                        <span class="trick__subtitle">Loja Online</span>
+                        <a href="https://github.com/RafaelBamberg/Online-Store" target="https://github.com/RafaelBamberg/Online-Store" class="button botao_projetos">⚡</a>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat3-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Trivia Game</h3>
+                        <span class="trick__subtitle">Jogo de Perguntas e Respostas</span>
+                        <a href="https://github.com/RafaelBamberg/Trivia-Redux" target="https://github.com/RafaelBamberg/Trivia-Redux" class="button botao_projetos">⚡</a>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat4-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Starwars Planets</h3>
+                        <span class="trick__subtitle">Filtro de planetas Starwars</span>
+                        <a href="https://github.com/RafaelBamberg/starwars-planets-search" target="https://github.com/RafaelBamberg/starwars-planets-search" class="button botao_projetos">⚡</a>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat5-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Recipes App</h3>
+                        <span class="trick__subtitle">App de receitas</span>
+                        <a href="https://github.com/RafaelBamberg/Recipes-App" target="https://github.com/RafaelBamberg/Recipes-App" class="button botao_projetos">⚡</a>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat6-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Shopping Cart</h3>
+                        <span class="trick__subtitle">Carrinho de compras</span>
+
+                        <a href="https://github.com/RafaelBamberg/Cart" target="https://github.com/RafaelBamberg/Cart" class="button botao_projetos">⚡</a>
+                    </div>
+                    
+                </div>
+            </section> -->
+        </main>
+
+        <!--==================== FOOTER ====================-->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <div class="footer__social">
+                            <a href="https://github.com/RafaelBamberg" target="https://github.com/RafaelBamberg" class="footer__social-link">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/rafael-bamberg-868539114/" target="https://www.linkedin.com/in/rafael-bamberg-868539114/" class="footer__social-link">
+                                <i class='bx bxl-linkedin' ></i>
+                            </a>
+            </footer>
+
+            <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+            </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
