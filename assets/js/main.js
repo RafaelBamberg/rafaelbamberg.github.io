@@ -94,6 +94,37 @@ const sr = ScrollReveal({
     // reset: true
 })
 
+
+/*=============== Dark Mode ===============*/
+
+const html = document.querySelector("html")
+const checkbox = document.querySelector("input[name=theme]")
+
+const getStyle = (element, style) => {
+    window.getComputedStyle(element).getPropertyValue
+    window.getPropertyValue(style)
+}
+
+window.getComputedStyle(document.body).getPropertyValue
+const initialColors = {
+    body: getStyle(html, "--body-color: linear-gradient(90deg, hsl(209, 78%, 32%) 0%, hsl(199, 79%, 46%) 100%);"),
+    container: getStyle(html, "container-color: linear-gradient(136deg, hsl(219, 51%, 48%) 0%, hsl(212, 58%, 36%) 100%);")
+}
+
+const changeColors = (colors) => {
+    console.log(colors)
+
+}
+
+const darkmode ={
+    body: "--body-color: hsl(30, 8%, 8%)",
+    container: "--container-color: hsl(30, 8%, 10%)"
+}
+
+checkbox.addEventListener("change", ({target}) => {
+    target.checked ? changeColors() : changeColors()
+})
+
 sr.reveal(`.home-swiper, .new-swiper, .newsletter__container`)
 sr.reveal(`.category__data, .base__content, .footer__content`,{interval: 100})
 sr.reveal(`.about__data, .discount__img`,{origin: 'left'})
